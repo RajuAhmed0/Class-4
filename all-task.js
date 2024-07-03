@@ -12,9 +12,4 @@ Bar("foo");
 Foo();
 
 
-
-Foo();
-Bar("foo")
-
-
 /* Task - 2  */
