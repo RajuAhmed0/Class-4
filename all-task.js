@@ -7,14 +7,14 @@ function Foo() {
 function Bar() {
    console.log("bar"); 
 }
-Foo();
+
 Bar("foo");
+Foo();
 
 
 
+Foo();
+Bar("foo")
 
-/* function foo() {console.log("foo");bar ();} 
-function bar() {console.log("bar");}foo ();
 
-bar('foo')
-foo() */
+/* Task - 2  */
