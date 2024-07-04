@@ -24,21 +24,31 @@ console.log(avg);
 
 
 /*  Task - 3 */
-// function make_avgs (num1, num2, num3, num4, num5) {
-//    var totalAmount = num1 + num2 + num3 + num4 + num5;
-//    var averages = totalAmount / 5;
-//    return averages;  
-// }
-//  var avg = make_avgs (10, 12, 15, 23, 35);
-//  console.log(avg);
+
+function findAverage(array) {
+   var sum = 0;
+   for (var i = 0; i < array.length; i++) {
+      sum += array[i];
+   }
+   return sum / array.length;
+}
+
+let numbers = [10, 12, 15, 24, 35];
+let average = findAverage(numbers);
+console.log(average); 
 
 /* Task - 4 */
+function odd_even(num) {
+   if (num % 2 == 0) {
+       return 'even';   
+   }
+   else {
+       return 'odd';
+   }
+}
 
-
-
-
-
-
+var resultNum = odd_even(23);
+console.log(`This is ${resultNum} number`);
 
 
 /* Task - 5 */
